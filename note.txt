@@ -14,4 +14,8 @@ docker run \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -e PORT=2375 \
     shipyard/docker-proxy:latest
-将docker demaon通过tcp端口暴露出来，提供给docker cloud,这样不需要配置jinkins证书，但是有安全风险
+将docker demaon通过tcp端口暴露出来，提供给docker cloud,这样不需要配置jinkins证书，但是有安全风险.
+
+由于docker-plugin会通过salve 22端口映射到host的端口进行ssh连接， 会尝试过去docker server host的ip， 默认情况下是docker host tcp连接的ip， 由于不能真正映射到主机的ip ，导致ssh连接不通。可以参考 https://forums.docker.com/t/accessing-host-machine-from-within-docker-container/14248/4 使docker容器可以通过一个固定的内网ip访问host。
+
+
