@@ -1,0 +1,7 @@
+Started by user [8mha:////4Gg7SQ4fKqOXMCH5wHFnVn4Tx/lhQvYw2/7mgU5duQpbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4BxNJK4Wp23UiivszyUrgYDoTtV0GxMCvCKIyI8VTQk2AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzZEgZZ/eT83ILSktQi/ZT85OzUIl3DFFNTU4vE1FST1EQA8obdq9IAAAA=[0mdocker-1d5558aee4ea on docker (docker) in workspace /home/jenkins/workspace/test-docker
+[test-docker] $ /bin/sh -xe /tmp/jenkins8732174826715591057.sh
++ sleep 60s
++ echo hello
+hello
+Finished: SUCCESS

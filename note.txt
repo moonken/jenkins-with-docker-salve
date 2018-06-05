@@ -1,0 +1,17 @@
+Jenkins Docker Server Credential: 
+    Client Key, 对应docker-machine 证书目录下的 key.pem
+    Client Certificate: 对应docker-machine 证书目录下的 cert.pem
+    Server CA Certificate: 对应docker-machine 证书目录下的 server.pem
+                                 
+没有docker-machine的情况下， 参考https://testerhome.com/topics/5798， 用
+docker run \
+    -ti \
+    -d \
+    -p 2375:2375 \
+    --hostname=$HOSTNAME \
+    --restart=always \
+    --name shipyard-proxy \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -e PORT=2375 \
+    shipyard/docker-proxy:latest
+将docker demaon通过tcp端口暴露出来，提供给docker cloud,这样不需要配置jinkins证书，但是有安全风险

@@ -1,0 +1,17 @@
+Started by user [8mha:////4Gg7SQ4fKqOXMCH5wHFnVn4Tx/lhQvYw2/7mgU5duQpbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4HqDs5wXapG7W8mcMoKG8/2DY2tWsR9+cjPW+ZfWK2FSAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzZEgZZ/eT83ILSktQi/ZT85OzUIl3DVEPjlOQUA9PkxFQAVSk9ydIAAAA=[0mdocker-1e13dcd05cae on docker (docker) in workspace /home/jenkins/workspace/test-docker
+[test-docker] $ /bin/sh -xe /tmp/jenkins8188318419032520683.sh
++ java -version
+openjdk version "1.8.0_162"
+OpenJDK Runtime Environment (build 1.8.0_162-8u162-b12-1~deb9u1-b12)
+OpenJDK 64-Bit Server VM (build 25.162-b12, mixed mode)
++ echo /home/jenkins/workspace/test-docker
+/home/jenkins/workspace/test-docker
++ ls -alt
+total 8
+drwxr-xr-x 2 jenkins jenkins 4096 Jun  5 07:43 .
+drwxr-xr-x 3 jenkins jenkins 4096 Jun  5 07:43 ..
++ sleep 60s
++ echo hello
+hello
+Finished: SUCCESS
