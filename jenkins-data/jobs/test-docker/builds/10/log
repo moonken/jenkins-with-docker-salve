@@ -1,0 +1,17 @@
+Started by user [8mha:////4Gg7SQ4fKqOXMCH5wHFnVn4Tx/lhQvYw2/7mgU5duQpbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building remotely on [8mha:////4BoZ0S5VkEp6imiqmbt0PzFeZ3dkcXtTby/4PJKM7yNtAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyZEgYZ/eT83ILSktQi/ZT85OzUIl1zC4tU05SklFRTCwDDdmn20QAAAA==[0mdocker-788e5dbde58 on docker (docker) in workspace /home/jenkins/workspace/test-docker
+[test-docker] $ /bin/sh -xe /tmp/jenkins2775751367472921181.sh
++ java -version
+openjdk version "1.8.0_162"
+OpenJDK Runtime Environment (build 1.8.0_162-8u162-b12-1~deb9u1-b12)
+OpenJDK 64-Bit Server VM (build 25.162-b12, mixed mode)
++ echo /home/jenkins/workspace/test-docker
+/home/jenkins/workspace/test-docker
++ ls -alt
+total 8
+drwxr-xr-x 2 jenkins jenkins 4096 Jun  5 08:52 .
+drwxr-xr-x 3 jenkins jenkins 4096 Jun  5 08:52 ..
++ docker ps -a
+/tmp/jenkins2775751367472921181.sh: 5: /tmp/jenkins2775751367472921181.sh: docker: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

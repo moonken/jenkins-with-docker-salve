@@ -112,3 +112,8 @@ SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.3) has been manuall
 SKIPPED plugins/github-branch-source.jpi : Installed version (2.3.5) has been manually upgraded from initial version (2.3.4)
 SKIPPED plugins/git.jpi : Installed version (3.9.1) has been manually upgraded from initial version (3.9.0)
 SKIPPED plugins/github.jpi : Installed version (1.29.1) has been manually upgraded from initial version (1.29.0)
+--- Copying files at Tue Jun  5 08:50:42 UTC 2018
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.3) has been manually upgraded from initial version (2.8.11.2)
+SKIPPED plugins/github-branch-source.jpi : Installed version (2.3.5) has been manually upgraded from initial version (2.3.4)
+SKIPPED plugins/git.jpi : Installed version (3.9.1) has been manually upgraded from initial version (3.9.0)
+SKIPPED plugins/github.jpi : Installed version (1.29.1) has been manually upgraded from initial version (1.29.0)

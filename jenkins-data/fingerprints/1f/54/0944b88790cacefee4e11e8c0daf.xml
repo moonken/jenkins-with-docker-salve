@@ -40,5 +40,10 @@
       <nodeName>docker-50bd0b574fc</nodeName>
       <timestamp0>1528185991853</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.1.16">
+      <timestamp>1528188762376</timestamp>
+      <nodeName>docker-788e5dbde58</nodeName>
+      <timestamp0>1528188762376</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
   </facets>
 </fingerprint>

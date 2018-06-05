@@ -1,0 +1,17 @@
+Started by user [8mha:////4Gg7SQ4fKqOXMCH5wHFnVn4Tx/lhQvYw2/7mgU5duQpbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/test-docker
+[test-docker] $ /bin/sh -xe /tmp/jenkins7015708685963076461.sh
++ java -version
+openjdk version "1.8.0_151"
+OpenJDK Runtime Environment (IcedTea 3.6.0) (Alpine 8.151.12-r0)
+OpenJDK 64-Bit Server VM (build 25.151-b12, mixed mode)
++ echo /var/jenkins_home/workspace/test-docker
+/var/jenkins_home/workspace/test-docker
++ ls -alt
+total 0
+drwxr-xr-x 1 jenkins 50 64 Jun  5 05:35 .
+drwxr-xr-x 1 jenkins 50 96 Jun  5 05:35 ..
++ docker ps -a
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.35/containers/json?all=1: dial unix /var/run/docker.sock: connect: permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
